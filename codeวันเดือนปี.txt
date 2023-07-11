@@ -1,0 +1,44 @@
+// Day Class
+Day::Day(){
+	day = 0;
+	month = 0;
+	year = 0;
+}
+void Day::setDay(int day){
+	if(day > 31 || day < 1){
+		cout << "PLs Insert 1-31 day..." << endl;
+	}
+	else{
+		this->day = day;
+	}
+}
+void Day::setMonth(int month){
+	if(month > 12 || month < 1){
+		cout << "PLs Insert 1-12 month..." << endl;
+	}
+	else{
+		this->month = month;
+	}
+}
+void Day::setYear(int year){
+	if(year < 1){
+		cout << "PLs Insert upper 0 year ..." << endl;
+	}
+	else{
+		this->year = year;
+	}
+}
+int Day::getDay(){
+	return day;
+}
+int Day::getMonth(){
+	return month;
+}
+int Day::getYear(){
+	return year;
+}
+void Day::showDMY(){
+	cout << day << "/" 
+		<< month << "/"
+		<< year << endl;
+}
