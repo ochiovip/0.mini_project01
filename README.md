@@ -14,9 +14,10 @@
 
 5.Show All
 
-
 --- Menu Add ---
+
 insert IDstudent Prefixname Firstname Lastname Faculty 
 
 --- Menu Chang ---
+
 insert search ID to chang
